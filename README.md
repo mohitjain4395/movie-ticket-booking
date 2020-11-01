@@ -4,7 +4,7 @@ This question was asked in udaan coding challenge on hackerearth.
 you need to write code for managing movie tickets, it must have 4 functionalities
 
 # add-screen
- <add-screen> <screen_name> <number of rows> <size of each row> <list aisle seats>
+ add-screen screen_name number_of_rows <size of each row> <list aisle seats>
   
   output: success/failure
   

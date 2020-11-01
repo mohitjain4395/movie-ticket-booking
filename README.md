@@ -4,21 +4,21 @@ This question was asked in udaan coding challenge on hackerearth.
 you need to write code for managing movie tickets, it must have 4 functionalities
 
 # add-screen
-user command: <add-screen> <screen_name> <number of rows> <size of each row> <list aisle seats>
+ <add-screen> <screen_name> <number of rows> <size of each row> <list aisle seats>
   
   output: success/failure
   
 # reserve-seat
-user command: <reserve-seat> <screen_name> <row number> <list of seat numbers to be booked in given row>
+ <reserve-seat> <screen_name> <row number> <list of seat numbers to be booked in given row>
 
   output: success/failure
   
 # get-unreserved-seats
-user command: <get-unreserved-seats> <screen_name> <row number>
+ <get-unreserved-seats> <screen_name> <row number>
   
   output: list of unreserved seats in given row number
   
 # suggest-contiguous-seats
-user command: <suggest-contiguous-seats> <screen_name> <row number>
+ <suggest-contiguous-seats> <screen_name> <row number>
   
   output: list of contiguous seats if possible / else print none
